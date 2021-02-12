@@ -1,0 +1,24 @@
+// Universidad de La Laguna
+// Grado en Ingeniería informática
+// Computabilidad y algoritmia
+//
+// Fichero de representación de un DFA
+// Lenguaje reconocido: Cadenas binarias acabadas en 00
+// /////////////////////////////////////////////////////////////
+2
+0
+1
+3
+A
+B
+C
+A
+1
+C
+6
+A 0 B
+A 1 A
+B 0 C
+B 1 A
+C 0 C
+C 1 A

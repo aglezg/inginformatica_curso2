@@ -1,0 +1,13 @@
+Uso: ./travelling_salesman [input.gr] [initial_node]
+[input.gr]  = archivo de texto que define un grafo.
+[initial_node] = nodo de partida desde donde se quiere cacular el camino mínimo.
+
+Ejemplo de la estructura del archivo de lectura del grafo:
+
+3 nd    --> Número de nodos del grafo + "d" ó "nd" (dirigido / no dirigido)
+1 2 3.4
+1 3 4.5
+2 3 5.6
+|  |  L> Coste
+|  L> Nodo sucesor
+L> Nodo predecesor

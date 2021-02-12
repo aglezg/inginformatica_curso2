@@ -1,0 +1,16 @@
+Modo de empleo: ./dfa_simulation [input.dfa] [input.txt] [output.txt]
+Lee cadenas de un archivo de texto y escribe en otro 'Sí --' o 'No --' según pertenezcan al lenguaje que reconoce un DFA.
+Las cadenas que se lean del archivo de texto deben ir separadas por un salto de línea.
+
+El DFA correspondiente debe ir especificado en un archivo de texto (input.dfa) con sus datos separados por un salto de línea.
+Estos a su vez deben ir ordenados de la siguiente forma:
+1- // "comentarios" (ignorados a la hora de leer el fichero)
+2- Número de símbolos.
+3- Los correspondientes símbolos separados por saltos de línea.
+4- Número de estados.
+5- Los correspondientes estados estados por saltos de línea.
+6- El estado inicial.
+7- El número de estados de aceptación.
+8- Los correspondientes estados de aceptación separados por saltos de línea.
+9- Número de transiciones.
+3- Las correspondientes transiciones separadas por saltos de línea y especificadas de la forma: "estado simbolo nuevo_estado".

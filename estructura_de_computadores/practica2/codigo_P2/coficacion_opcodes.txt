@@ -1,0 +1,15 @@
+
+Codificación opcodes:
+
+  Saltos (6 bits):
+    - J   = 111111
+    - JZ  = 111110
+    - JR  = 111101
+
+  Carga Inm. (4 bits):
+    - LI = 0000
+
+  Oper. ALU (4 bits):
+    - ADD = 0001
+    - SUB = 0010
+

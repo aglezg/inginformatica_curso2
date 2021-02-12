@@ -1,0 +1,29 @@
+Uso: ./dfa2g [input.dfa] [output.gra]
+[input.dfa]  = archivo de texto que define un DFA.
+[output.gra] = archivo de texto donde se genera la gramática regular equivalente que representa el DFA.
+
+Ejemplo de la estructura del archivo de lectura del DFA:
+
+2               --> Número de símbolos en el alfabeto
+a
+b
+4               --> Número de estados
+q0
+q1
+q2
+q3
+q0              --> Estado inicial
+1               --> Número de estados de aceptación
+q0
+8               --> Número de transiciones
+q0 a q1
+q0 b q2
+q1 a q0
+q1 b q3
+q2 a q3
+q2 b q0
+q3 a q2
+q3 b q1
+|  |  L> Estado resultante
+|  L> Símbolo de transición
+L> Estado de entrada

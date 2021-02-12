@@ -1,0 +1,3 @@
+Hola mundo!
+Mi primer envío de mensajes con Netcp
+FIN
